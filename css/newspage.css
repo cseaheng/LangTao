@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+/*新闻内容页*/
+.news_content{ position: relative; padding: 13px 133px 13px 133px; width:696px; border:2px solid #f0f0f0;  background-color:#FFF;}
+.news_title{ font-size:32px; font-weight:normal; color:#333; line-height:44px;
+  margin:15px 0 34px;}
+.news_about{border-top:1px solid #8e8e8e; margin-bottom:36px;}
+.news_about p {font-size:14px; color:#8e8e8e; line-height: 24px;}
+.news_txt{ font-size:16px; line-height:30px;color:#333; letter-spacing:0.5px; margin-bottom:46px;}
+.imagebox{ text-align:center;}
+.imagebox img{ width:600px; height:400px;}
+.news_txt span{color:#808080; margin:0 auto;}
+.contheight{height:16px; width:100%;}
+
+/*新闻评论页*/
+#news_comment{padding: 13px 133px 13px 133px; width:696px; border:2px solid #f0f0f0;  background-color:#FFF; overflow:hidden;}
+#news_comment .com_title{ margin:0 0 20px; border-bottom:1px solid #b9b9b9; height:28px; }
+.com_title span{font-weight:bold; color:#000; font-size:16px; padding:0 20px 5px; border-bottom:2px solid #39f;}
+.com_pub{ margin-bottom:55px;}
+.headpro{ height:40px; width:40px; float:left; padding:0 20px;}
+.headpro img{ height:40px; width:40px;}
+.com_write{ position:relative;}
+.com_write textarea{width:602px; 50px; border:1px solid #d3d3d3; 
+font-family:"Microsoft Yahei"; font-size:14px; padding:5px; line-height:22px;}
+.button_pub{ cursor: pointer; width:90px; height:35px; line-height:35px;
+ float:right; background-color:#00a5e8; color:#ffffff; font-size:16px; margin-top:10px;
+    text-align:center; border-radius:4px; display:block;}
+#copyright{ height:38px;line-height:38px; color:#ffffff; background-color:#868686; text-align:center;}
+
+/*评论内容列表*/
+#com_list{ background:#f0f0f0;padding:25px 0; overflow:hidden; border:2px solid #fff;}
+#com_list h5{height: 16px; line-height: 16px; font-size: 14px; font-weight: 400; color: #00a5eb;}
+#com_list p{ margin: 8px 0 18px; color: #4c4c4c;font-size:14px; line-height:20px;
+  float:right; width:580px; padding-right:35px;}
